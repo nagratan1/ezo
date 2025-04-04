@@ -32,7 +32,7 @@ class _SelectPartyPageState extends State<SelectPartyPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: Color(0xff310096),
         centerTitle: true,
         title: const Text(
           'Select Party',
@@ -87,7 +87,7 @@ class _SelectPartyPageState extends State<SelectPartyPage> {
                   child: Container(
                     height: 40, 
                     width: 90, 
-                    decoration: BoxDecoration(borderRadius: BorderRadius.circular(5),border: Border.all(color: Colors.blue)),
+                    decoration: BoxDecoration(borderRadius: BorderRadius.circular(5),border: Border.all(color: Color(0xff310096))),
                   child:  Center(child: Text('New Party',style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold),)),
                   ),
                 ),

@@ -34,7 +34,7 @@ class _ExpenseListPageState extends State<ExpenseListPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: Color(0xff310096),
         centerTitle: true,
         title: const Text(
           'Expense List',
@@ -167,7 +167,7 @@ class _ExpenseListPageState extends State<ExpenseListPage> {
           Get.toNamed(MyPagesName.selectPartyPage);
         },
         label: const Text('NEW EXPENSE',style: TextStyle(color: Colors.white),),
-        backgroundColor: Colors.blue,
+        backgroundColor: Color(0xff310096),
       ),
     );
   }

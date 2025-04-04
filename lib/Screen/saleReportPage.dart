@@ -26,7 +26,7 @@ class _SalereportpageState extends State<Salereportpage> {
         ),
         centerTitle: true,
        
-        backgroundColor: Colors.blue,
+        backgroundColor: Color(0xff310096),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),

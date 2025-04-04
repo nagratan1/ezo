@@ -24,6 +24,7 @@ class _MyAppState extends State<MyApp> {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: "",
+      
       //theme: AppTheme.appTheme,
       initialRoute: MyPagesName.splash,
       getPages: MyRoute.list,

@@ -14,7 +14,7 @@ class _NewPartyPageState extends State<NewPartyPage> {
       appBar: AppBar(
         title: Text("New Party",style: TextStyle(color: Colors.white),),
         centerTitle: true,
-        backgroundColor: Colors.blue,
+        backgroundColor: Color(0xff310096),
         leading: IconButton(
           icon: Icon(Icons.arrow_back,color: Colors.white,),
           onPressed: () {
@@ -58,7 +58,7 @@ class _NewPartyPageState extends State<NewPartyPage> {
               },
               child: Text("SAVE",style: TextStyle(color: Colors.white),),
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.blue,
+                backgroundColor: Color(0xff310096),
                 minimumSize: Size(double.infinity, 50),
               ),
             ),
@@ -79,7 +79,7 @@ class _NewPartyPageState extends State<NewPartyPage> {
         width: MediaQuery.of(context).size.width / 2.5,
         padding: EdgeInsets.symmetric(vertical: 12),
         decoration: BoxDecoration(
-          color: _selectedTabIndex == index ? Colors.blue : Colors.white,
+          color: _selectedTabIndex == index ? Color(0xff310096) : Colors.white,
           borderRadius: BorderRadius.circular(8),
           border: Border.all(color: Colors.purple),
         ),

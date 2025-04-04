@@ -24,7 +24,7 @@ class SettingsPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         automaticallyImplyLeading: false,
-        backgroundColor: Colors.blue,
+        backgroundColor: Color(0xff310096),
         centerTitle: true,
         title: Text(
           "Settings",
@@ -51,7 +51,7 @@ class SettingsPage extends StatelessWidget {
                 //debugPrint("${settings[index]} pressed");
               },
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.blue,
+                backgroundColor: Color(0xff310096),
                 padding: const EdgeInsets.symmetric(vertical: 16.0),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(8.0),

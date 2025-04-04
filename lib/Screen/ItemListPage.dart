@@ -21,7 +21,7 @@ class _ItemListPageState extends State<ItemListPage> {
           'Item List',
           style: TextStyle(color: Colors.white),
         ),
-        backgroundColor: Colors.blue,
+        backgroundColor: Color(0xff310096),
       ),
       body: Column(
         children: [
@@ -78,7 +78,7 @@ class _ItemListPageState extends State<ItemListPage> {
          Get.toNamed(MyPagesName.newItemPage);
           
         },
-        backgroundColor: Colors.blue,
+        backgroundColor: Color(0xff310096),
         label: const Text('NEW ITEM',style: TextStyle(color: Colors.white),),
                   icon: const Icon(Icons.add,color: Colors.white,),
        
@@ -89,7 +89,7 @@ class _ItemListPageState extends State<ItemListPage> {
           
 
         },
-        backgroundColor: Colors.blue,
+        backgroundColor: Color(0xff310096),
         label: const Text('NEW CUSTOMER/PARTY',style: TextStyle(color: Colors.white),),
                   icon: const Icon(Icons.add,color: Colors.white,),
        

@@ -71,7 +71,7 @@ class _LoginPageState extends State<LoginPage> {
                       ),
                       focusedBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(8),
-                        borderSide: BorderSide(color: Colors.blue),
+                        borderSide: BorderSide(color: Color(0xff310096)),
                       ),
                     ),
                   ),
@@ -106,7 +106,7 @@ class _LoginPageState extends State<LoginPage> {
                         TextSpan(
                           text: 'Terms and Condition',
                           style: TextStyle(
-                            color: Colors.blue,
+                            color: Color(0xff310096),
                             decoration: TextDecoration.underline,
                           ),
                         ),
@@ -136,8 +136,8 @@ class _LoginPageState extends State<LoginPage> {
               },
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.white,
-                foregroundColor: Colors.blue,
-                side: BorderSide(color: Colors.blue),
+                foregroundColor: Color(0xff310096),
+                side: BorderSide(color: Color(0xff310096)),
                 minimumSize: Size(double.infinity, 50),
               ),
               child: Text('LOGIN'),

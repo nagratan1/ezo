@@ -12,7 +12,7 @@ class MoneyInoutListPage extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: const Text('MoneyIn Out List',style: TextStyle(color: Colors.white),),
-        backgroundColor: Colors.blue,
+        backgroundColor: Color(0xff310096),
         leading: InkWell(
           
           onTap: (){
@@ -154,7 +154,7 @@ class MoneyInoutListPage extends StatelessWidget {
           Get.toNamed(MyPagesName.moneyInPage);
         },
         label: Text('New Money In',style: TextStyle(color: Colors.white),),
-        backgroundColor: Colors.blue,
+        backgroundColor: Color(0xff310096),
       ),
     );
   }

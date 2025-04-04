@@ -6,7 +6,7 @@ class NewPartyCategoryPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('New Party Category',style:TextStyle(color: Colors.white),),
-        backgroundColor: Colors.blue,
+        backgroundColor: Color(0xff310096),
         leading: IconButton(
           icon: Icon(Icons.arrow_back,color: Colors.white,),
           onPressed: () {
@@ -45,7 +45,7 @@ class NewPartyCategoryPage extends StatelessWidget {
                   },
                   child: Text('SAVE',style: TextStyle(color: Colors.white),),
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.blue,
+                    backgroundColor: Color(0xff310096),
                     padding: EdgeInsets.symmetric(vertical: 16),
                     textStyle: TextStyle(
                       fontSize: 16,

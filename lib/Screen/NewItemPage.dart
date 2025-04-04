@@ -27,7 +27,7 @@ class _NewItemPageState extends State<NewItemPage> {
       appBar: AppBar(
         centerTitle: true,
         title: Text('New Item',style: TextStyle(color: Colors.white),),
-        backgroundColor: Colors.blue,
+        backgroundColor: Color(0xff310096),
         leading: IconButton(
           icon: Icon(Icons.arrow_back,color:Colors.white,),
           onPressed: () {
@@ -185,7 +185,7 @@ class _NewItemPageState extends State<NewItemPage> {
         },
         label: Text('SAVE',style: TextStyle(color: Colors.white),),
         icon: Icon(Icons.save,color: Colors.white,),
-        backgroundColor: Colors.blue,
+        backgroundColor: Color(0xff310096),
       ),
     );
   }

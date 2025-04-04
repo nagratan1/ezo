@@ -10,7 +10,7 @@ class ReportsPage extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: const Text('Reports',style: TextStyle(color: Colors.white),),
-        backgroundColor: Colors.blue,
+        backgroundColor: Color(0xff310096),
         leading: InkWell(
           onTap: (){
             Navigator.pop(context);
@@ -20,7 +20,7 @@ class ReportsPage extends StatelessWidget {
       body: ListView(
         padding: const EdgeInsets.all(16.0),
         children: [
-          _buildReportSection('1.1 Business Report', context),
+          //_buildReportSection('1.1 Business Report', context),
           InkWell(
             onTap: (){
               Get.toNamed(MyPagesName.reportPage);
@@ -38,13 +38,13 @@ class ReportsPage extends StatelessWidget {
           _buildReportSection('2.4 Purchase Report', context),
           _buildReportSection('2.5 Money In Report', context),
           _buildReportSection('2.6 Money Out Report', context),
-          _buildReportSection('2.7 Expense Report', context),
-          _buildReportSection('2.8 Estimate Report', context),
-          const SizedBox(height: 16),
-          _buildSectionTitle('PARTY REPORTS'),
-          _buildReportSection('3.1 Party Ledger', context),
-          _buildReportSection('3.2 Party Receivable/Payable Report', context),
-          _buildReportSection('3.3 Party Details Report', context),
+         // _buildReportSection('2.7 Expense Report', context),
+          // _buildReportSection('2.8 Estimate Report', context),
+          // const SizedBox(height: 16),
+          // _buildSectionTitle('PARTY REPORTS'),
+          // _buildReportSection('3.1 Party Ledger', context),
+          // _buildReportSection('3.2 Party Receivable/Payable Report', context),
+          // _buildReportSection('3.3 Party Details Report', context),
         ],
       ),
     );
@@ -73,7 +73,7 @@ class ReportsPage extends StatelessWidget {
       child: ListTile(
         leading: const Icon(
           Icons.description,
-          color: Colors.blue,
+          color: Color(0xff310096),
         ),
         title: Text(title),
         // onTap: () {

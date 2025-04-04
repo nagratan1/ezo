@@ -46,7 +46,7 @@ class _MoneyInPageState extends State<MoneyInPage> {
       appBar: AppBar(
         centerTitle: true,
         title: const Text('MoneyIn',style: TextStyle(color: Colors.white),),
-        backgroundColor: Colors.blue,
+        backgroundColor: Color(0xff310096),
         leading: InkWell(
           onTap: (){
                         Navigator.pop(context);
@@ -98,7 +98,7 @@ class _MoneyInPageState extends State<MoneyInPage> {
                   onPressed: () {},
                   child: const Text('UPI/Bank/POS'),
                   style: OutlinedButton.styleFrom(
-                    foregroundColor: Colors.blue,
+                    foregroundColor: Color(0xff310096),
                     side: const BorderSide(color: Colors.black38),
                   ),
                 ),
@@ -106,7 +106,7 @@ class _MoneyInPageState extends State<MoneyInPage> {
                   onPressed: () {},
                   child: const Text('Cash'),
                   style: OutlinedButton.styleFrom(
-                    foregroundColor: Colors.blue,
+                    foregroundColor: Color(0xff310096),
                     side: const BorderSide(color: Colors.black38),
                   ),
                 ),
@@ -114,7 +114,7 @@ class _MoneyInPageState extends State<MoneyInPage> {
                   onPressed: () {},
                   child: const Text('Cheque'),
                   style: OutlinedButton.styleFrom(
-                    foregroundColor: Colors.blue,
+                    foregroundColor: Color(0xff310096),
                     side: const BorderSide(color: Colors.black38),
                   ),
                 ),
@@ -126,7 +126,7 @@ class _MoneyInPageState extends State<MoneyInPage> {
       floatingActionButton: FloatingActionButton.extended(
         onPressed: () {},
         label: const Text('Save',style:TextStyle(color: Colors.white)),
-        backgroundColor: Colors.blue,
+        backgroundColor: Color(0xff310096),
       ),
     );
   }

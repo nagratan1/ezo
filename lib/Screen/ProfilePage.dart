@@ -12,7 +12,7 @@ class _ProfilePageState extends State<ProfilePage> {
       appBar: AppBar(
         centerTitle: true,
         title: const Text('Profile',style: TextStyle(color: Colors.white),),
-        backgroundColor: Colors.blue,
+        backgroundColor: Color(0xff310096),
         leading: InkWell(
           onTap: (){
             Navigator.pop(context);
@@ -37,7 +37,7 @@ class _ProfilePageState extends State<ProfilePage> {
                 onPressed: () {},
                 child: const Text(
                   'Edit Image',
-                  style: TextStyle(color: Colors.blue),
+                  style: TextStyle(color: Color(0xff310096)),
                 ),
               ),
             ),
@@ -76,7 +76,7 @@ class _ProfilePageState extends State<ProfilePage> {
             ElevatedButton(
               onPressed: () {},
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.blue,
+                backgroundColor: Color(0xff310096),
                 minimumSize: const Size.fromHeight(50),
               ),
               child: const Text('Save',style: TextStyle(color: Colors.white),),

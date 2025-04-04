@@ -82,7 +82,7 @@ class _OtpPageState extends State<OtpPage> {
               style: TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.bold,
-                color: Colors.blue,
+                color: Color(0xff310096),
               ),
             ),
             SizedBox(height: 16),
@@ -112,7 +112,7 @@ class _OtpPageState extends State<OtpPage> {
                   height: 50,
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
-                    border: Border.all(color: Colors.blue),
+                    border: Border.all(color: Color(0xff310096)),
                     borderRadius: BorderRadius.circular(8),
                   ),
                   child: TextField(
@@ -157,11 +157,11 @@ class _OtpPageState extends State<OtpPage> {
                   startTimer();
                 },
                 style: OutlinedButton.styleFrom(
-                  side: BorderSide(color: Colors.blue),
+                  side: BorderSide(color: Color(0xff310096)),
                 ),
                 child: Text(
                   'RESEND OTP',
-                  style: TextStyle(color: Colors.blue),
+                  style: TextStyle(color: Color(0xff310096)),
                 ),
               ),
           ],

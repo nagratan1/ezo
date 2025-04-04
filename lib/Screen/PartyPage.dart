@@ -127,7 +127,7 @@ class _PartyListPageState extends State<PartyListPage> {
       appBar: AppBar(
         centerTitle: true,
         automaticallyImplyLeading: false,
-        backgroundColor: Colors.blue,
+        backgroundColor: Color(0xff310096),
         title: Text(
           "Party List",
           style: TextStyle(
@@ -177,7 +177,7 @@ class _PartyListPageState extends State<PartyListPage> {
          Get.toNamed(MyPagesName.newPartyPage);
           
         },
-        backgroundColor: Colors.blue,
+        backgroundColor: Color(0xff310096),
         label: const Text('ADD CUSTOMER/PARTY',style: TextStyle(color: Colors.white),),
                   icon: const Icon(Icons.add,color: Colors.white,),
        
@@ -188,7 +188,7 @@ class _PartyListPageState extends State<PartyListPage> {
           
 
         },
-        backgroundColor: Colors.blue,
+        backgroundColor: Color(0xff310096),
         label: const Text('NEW CUSTOMER/PARTY',style: TextStyle(color: Colors.white),),
                   icon: const Icon(Icons.add,color: Colors.white,),
        
@@ -214,7 +214,7 @@ class CustomTab extends StatelessWidget {
         padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
         decoration: BoxDecoration(
           
-          color: isSelected ? Colors.blue : Colors.white,
+          color: isSelected ? Color(0xff310096) : Colors.white,
           border: Border.all(color: Colors.black38),
         ),
         child: Center(

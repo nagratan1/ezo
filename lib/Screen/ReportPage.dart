@@ -15,7 +15,7 @@ class _ReportPageeState extends State<ReportPagee> {
       appBar: AppBar(
         centerTitle: true,
         title: const Text('Report',style: TextStyle(color: Colors.white),),
-        backgroundColor: Colors.blue,
+        backgroundColor: Color(0xff310096),
         leading: InkWell(
           onTap: (){
             Navigator.pop(context);
